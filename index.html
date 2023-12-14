@@ -1,0 +1,37 @@
+<div id="calculator">
+    <div class='depth'>
+      <form name="simplecalc">
+        <input type="textfield" value="0" id="result" readonly="">
+        <br>
+        <input type="textfield" value="0" id="calculation" readonly="">
+        <br>
+        <br>
+        <input type="button" onclick="calcIt('7')" value="7">
+        <input type="button" onclick="calcIt('8')" value="8">
+        <input type="button" onclick="calcIt('9')" value="9">
+        <input type="button" onclick="calcIt('*')" value="x" class='op'>
+        <br>
+        <input type="button" onclick="calcIt('4')" value="4">
+        <input type="button" onclick="calcIt('5')" value="5">
+        <input type="button" onclick="calcIt('6')" value="6">
+        <input type="button" onclick="calcIt('+')" value="+" class='op'>
+        <br>
+        <input type="button" onclick="calcIt('1')" value="1">
+        <input type="button" onclick="calcIt('2')" value="2">
+        <input type="button" onclick="calcIt('3')" value="3">
+        <input type="button" onclick="calcIt('/')" value="/" class='op'>
+        <br>
+        <input type="reset" onClick="clearAll()" value="AC" class="clearall">
+        <input type="button" onclick="calcIt('.')" value=".">
+        <input type="button" onclick="calcIt('0')" value="0" class='zero'>
+        <input type="button" onclick="calcIt('-')" value="-" class='op'>
+        <br>
+        <input type="button" onclick="clearIt()" value="C" class="clear">
+        <input type="button" onclick="calcResult()" value="=" id="calc">
+      </form>
+      <footer>
+        Tiny Simple Calculator Copyright &#169; 2016 Topzie
+      </footer>
+  
+    </div>
+  </div>
