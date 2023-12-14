@@ -1,0 +1,166 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Roboto, sans-serif;
+    background: #6d908a;
+    background-image: -ms-linear-gradient( rgba(109, 144, 138, 0.98), rgba(153, 184, 185, 0.98));
+    background-image: -webkit-linear-gradient( rgba(109, 144, 138, 0.98), rgba(153, 184, 185, 0.98));
+    background-image: -moz-linear-gradient( rgba(109, 144, 138, 0.98), rgba(153, 184, 185, 0.98));
+    background-image: -o-linear-gradient( rgba(109, 144, 138, 0.98), rgba(153, 184, 185, 0.98));
+    background-image: linear-gradient( rgba(109, 144, 138, 0.98), rgba(153, 184, 185, 0.98));
+  }
+  
+  p {
+    font-family: 'Farsan', cursive;
+    color: #c5d5da;
+    text-shadow: 1px 1px grey;
+  }
+  
+  span {
+    font-size: 10px;
+  }
+  
+  input {
+    background-color: #ecf2f0;
+    border: none;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 0.3em rgb(47, 73, 85);
+    border-radius: 4px;
+    color: #1e1f1e;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  input:active {
+    box-shadow: inset 2px 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(228, 237, 237);
+  }
+  
+  .clear:active,
+  .clearall:active {
+    background-color: rgb(205, 103, 70);
+  }
+  
+  .op:active {
+    background-color: #d79b52;
+  }
+  
+  #result {
+    border: none;
+    width: 205px;
+    background-color: #ecf4f1;
+    color: #1e1f1e;
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: -10px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    box-shadow: inset 1px 2px 0.2em grey;
+  }
+  
+  #calculation {
+    width: 205px;
+    padding: 4px 10px 8px 0px;
+    color: #ecf4f1;
+    background-color: #546067;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    height: auto;
+    font-size: 12px;
+    border-radius: 0px;
+    box-shadow: none;
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  .clear {
+    background-color: rgb(227, 118, 85);
+    color: #f9f7f5;
+    width: 95px;
+  }
+  
+  .clearall {
+    background-color: rgb(227, 118, 85);
+    color: #f9f7f5;
+  }
+  
+  .num {
+    background-color: #f9f7f5;
+    color: #1e1f1e;
+  }
+  
+  .op {
+    background-color: #f0ac59;
+    color: #f9f7f5;
+    font-weight: bolder;
+  }
+  
+  #calculator {
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 300px;
+    height: 380px;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #8ca1a6;
+    background: -webkit-linear-gradient(45deg, #8ba2a7, #96abb0, #678996, #6b91a1);
+    background: -moz-linear-gradient(45deg, #8ba2a7, #96abb0, #678996, #6b91a1);
+    background: -o-linear-gradient(#96abb0, #8ba2a7, #678996, #6b91a1);
+    background: linear-gradient(#96abb0, #8ba2a7, #678996, #6b91a1);
+  }
+  
+  #calc {
+    width: 95px;
+    background-color: #539a55;
+    color: #f9f7f5;
+  }
+  
+  #calc:active {
+    background-color: #468a47;
+  }
+  
+  .depth {
+    margin: auto;
+    width: 240px;
+    height: 380px;
+    background-color: #486473;
+    background-color: rgba(51, 72, 83, 0.35);
+  }
+  
+  footer {
+    -webkit-transition: height 0.8s, font 0.8s, padding-top 0.8s ease;
+    -moz-transition: height 0.8s, font 0.8s, padding-top 0.8s ease;
+    -o-transition: height 0.8s, font 0.8s, padding-top 0.8s ease;
+    transition: height 0.8s, font 0.8s, padding-top 0.8s ease;
+    font-family: 'Rokkitt', cursive;
+    width: 140px;
+    height: 15px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 0.7em;
+    text-align: center;
+    color: rgb(129, 164, 179);
+  }
+  
+  footer:hover {
+    background-color: #faeb68;
+    height: 45px;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 40px;
+    padding-top: 50px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    color: rgb(40, 61, 70);
+  }
